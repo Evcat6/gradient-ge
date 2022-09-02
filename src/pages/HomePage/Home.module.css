@@ -1,0 +1,55 @@
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+
+.title {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.changer {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+
+/* Responsive Part */
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+
+/*576-768 */
+@media screen and (max-width: 768px) {
+
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+
+}

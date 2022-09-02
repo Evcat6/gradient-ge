@@ -1,0 +1,10 @@
+
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #01B0D3;
+    font-size: 60px;
+}

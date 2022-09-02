@@ -1,0 +1,38 @@
+
+
+
+.github {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #01B0D3;
+    font-size: 60px;
+}
+
+
+/* Responsive Part */
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .github {
+        font-size: 35px;
+    }
+}
+
+
+/*576-768 */
+@media screen and (max-width: 768px) {
+
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+
+}

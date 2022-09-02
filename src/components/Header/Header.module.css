@@ -1,0 +1,18 @@
+
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #01B0D3;
+}
+
+
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;
+    user-select: none;
+    color: white;
+}
+

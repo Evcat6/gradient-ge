@@ -2,11 +2,10 @@ import React from 'react';
 import { FaDice } from 'react-icons/fa'
 import { useRandomGradient, useRandomRange } from '../../context'
 
-
 const RandomGradient = () => {
 
     const styles = {
-        fontSize: '45px', 
+        fontSize: '35px', 
         fontWeight: 'bold', 
         color: '#01B0D3', 
         cursor: 'pointer',

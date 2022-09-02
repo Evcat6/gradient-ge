@@ -3,7 +3,7 @@
 .container {
     width: 100%;
     background-color: #1F2667;
-    height: 100px;
+    height: 30px;
     border-radius: 8px;
     margin-top: 25px;
     padding: 15px;
@@ -26,9 +26,6 @@
 
 /* 992-1200 */
 @media screen and (max-width: 1200px) {
-    .container {
-        height: 70px;
-    }
 }
 
 /*768-992 */
@@ -47,5 +44,8 @@
 
 /*0-576 */
 @media screen and (max-width: 576px) {
+    .container {
+        height: 55px;
+    }
 
 }

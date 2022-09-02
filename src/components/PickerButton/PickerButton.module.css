@@ -13,3 +13,31 @@
 .button:hover {
     background-color: rgba(1, 178, 213, 0.9);
 }
+
+
+/* Responsive Part */
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .button {
+        font-weight: 600;
+        padding: 8px 12px;
+    }
+
+}
+
+
+/*576-768 */
+@media screen and (max-width: 768px) {
+
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+
+}

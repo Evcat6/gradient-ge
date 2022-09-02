@@ -8,9 +8,9 @@ const CustomLink = ({ children, to, ...props }) => {
         color: match? "black": 'white',
         backgroundColor: match? "white": "inherit", 
         textDecoration: "none", 
-        padding: '7px 10px', 
+        padding: '6px 9px', 
         borderRadius: 4, 
-        margin: "0 8px", 
+        margin: "0 7px", 
         fontWeight: "bold"
     }
 

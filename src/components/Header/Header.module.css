@@ -16,3 +16,30 @@ header {
     color: white;
 }
 
+
+
+/* Responsive Part */
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .logo {
+        font-size: 25px;
+    }
+}
+
+
+/*576-768 */
+@media screen and (max-width: 768px) {
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+
+}
+

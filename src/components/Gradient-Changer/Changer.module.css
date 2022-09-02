@@ -41,14 +41,14 @@
     .title {
         font-size: 20px;
     }
+    .random {
+        margin-top: 15px;
+    }
 }
 
 
 /*576-768 */
 @media screen and (max-width: 768px) {
-    .random {
-        margin-top: 20px;
-    }
 }
 
 

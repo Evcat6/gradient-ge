@@ -9,3 +9,4 @@ export { default as PickerButtons } from './PickerButtons/PickerButtons.jsx';
 export { default as Pickers }from './Pickers/Pickers';
 export { default as RandomGradient } from './RandomGradient/RandomGradient';
 export { default as CodePanel } from './CodePanel/CodePanel';
+export { default as DropBox } from './DropBox/DropBox';

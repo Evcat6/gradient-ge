@@ -1,0 +1,21 @@
+
+.drop_box {
+    position: sticky;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    background-color: #01B0D3;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .drop_box {
+        display: flex;
+    }
+}

@@ -4,9 +4,10 @@ header {
     height: 70px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; 
     background-color: #01B0D3;
 }
+
 
 
 .logo {
@@ -14,6 +15,28 @@ header {
     font-weight: bold;
     user-select: none;
     color: white;
+}
+
+.links_hamburger {
+    display: flex;
+}
+
+.menu {
+    font-size: 35px;
+    color: white;
+    display: none;
+}
+
+.drop_box {
+    position: sticky;
+    z-index: 1;
+    height: 100px;
+    width: 100%;
+    background-color: #01B0D3;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: none;
 }
 
 
@@ -35,6 +58,15 @@ header {
 
 /*576-768 */
 @media screen and (max-width: 768px) {
+    .links {
+        display: none;
+    }
+    .menu {
+        display: inline;
+    }
+    .drop_box {
+        display: flex;
+    }
 }
 
 

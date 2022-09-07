@@ -9,5 +9,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #ebebeb;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
+
